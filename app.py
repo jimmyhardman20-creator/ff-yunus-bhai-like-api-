@@ -233,8 +233,8 @@ def handle_requests():
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "credits": "powerd by rohan",
-        "Telegram like bot username": "@profilelikeff"
+        "credits": "powerd by ",
+        "Telegram like bot username": ""
     })
 if __name__ == '__main__':
     
